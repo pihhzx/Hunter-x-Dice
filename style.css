@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    background-color: #111111;
+}
+
+
+.logo {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    top: 0px;
+    left: -4px;
+    padding: -200px 0;
+    filter: drop-shadow(0 0 10px #5bcbff)
+          drop-shadow(0 0 12px #abadff);
+}
+
+
+
+
+.ul{
+    position: absolute;
+    top: 30px;
+    left: 364px;
+    font-size: 22px;
+}
+.ul a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 20px;
+    display: inline-block;
+    font-family: Inter;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    transform: scaleY(1.3);
+}
+.linha {
+    color: white;
+    position: absolute;
+    left: 3px;
+    top: 72px;
+    width: 0px;
+    height: auto;
+    background: linear-gradient(90deg, #c084fc, #22d3ee);
+}
+
+
+
+
+.ficha {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 100px;
+    left: 240px;
+    background: rgba(20, 25, 30, 0.85);
+  color: #d7d4ff;
+  border: 1px solid #a6a7fc;
+  border-radius: 20px;
+  padding: 6px 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input,
+textarea,
+select{
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #91a5ff;
+  border-radius: 6px;
+  padding: 6px 10px;
+  outline: none;
+}
+
+
+
+
+
+
+.pericias {
+        color: white;
+        width: 100px;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        padding: 188px 31pc;
+}
+
+.pericias td {
+  padding: 6px 12px;
+}
+
+.pericias td:first-child {
+  text-align: left;
+}
+
+.pericias td:last-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+.num-pericia {
+  width: 35px;
+  height: 21px;
+  font-size: 13px;
+  text-align: center;
+  
+}
+.pontos {
+    position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  left: 650px;
+  top: 217px;
+}
+
+
+
+
+.atributos {
+    color: white;
+    position: absolute;
+    left: 80px;
+    top: 143px;
+    width: 450px;
+}
+
+.atr {
+    position: relative;
+  width: 7px;
+  height: 10px;
+
+  
+}
+.num-atr {
+    font-size: 25px;
+     text-align: center;
+}
+.agilidade {
+    position: absolute;
+    left: 280px;
+    top: 190px;
+    width: 40px;
+    z-index: 10;
+}
+.forca {
+    position: absolute;
+    left: 167px;
+    top: 265px;
+    width: 40px;
+    z-index: 10;
+}
+.intelecto {
+    position: absolute;
+    left: 396px;
+    top: 265px;
+    width: 40px;
+    z-index: 10;
+}
+.carisma {
+    position: absolute;
+    left: 208px;
+    top: 403px;
+    width: 40px;
+    z-index: 10;
+
+}
+.vigor {
+    position: absolute;
+    left: 354px;
+    top: 403px;
+    width: 40px;
+    z-index: 10;
+
+}
+
+
+
+
+
+.nivel-hunter {
+    position: absolute; /* ou relative se quiser dentro da ficha */
+    top: 420px; /* ajuste a posição */
+    left: -100px; /* ajuste a posição */
+    z-index: 10; /* garante que fique acima de outros elementos */
+}
+
+.nivel-hunter select {
+    width: 47px;
+    font-size: 16px;
+}
+#nivel {
+    background-color: #222;
+    color: #fff;
+    border: 2px solid #555;
+    padding: 2px 5px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: #222;
+}
+
+
+
+
+
+.escudo {
+    position: absolute;
+    width: 65px;
+    height: auto;
+    left: 234px;
+    top: -23px;
+    padding: -200px 0;
+}
+.defesa {
+    position: absolute;
+    font-size: 14px;
+    left: 193px;
+    top: 40px;
+filter: drop-shadow(0 0 10px #ffffff)
+    drop-shadow(0 0 12px #eb0000);
+}
+#valordefesa {
+    position: absolute;
+    left: 252px;
+    top: -2px;
+    font-size: 20px;
+    font-family: arial black;
+    color: #ffffff;
+    filter: drop-shadow(0 0 10px #ffffff)
+    drop-shadow(0 0 12px #ffffff);
+}
+
+.hxd {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: -10px;
+    left: -14px;
+    color: #ffffff;
+    filter: drop-shadow(0 0 10px #9294ff)
+    drop-shadow(0 0 12px #ffffff);
+}
+
+
