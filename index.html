@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hunter x Dice</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+              <img src="img/hxd.png" alt="hxd" class="hxd">
+            <div class="atr">
+              <input type="number" class="num-atr forca">
+              <input type="number" class="num-atr agilidade">
+              <input type="number" class="num-atr carisma">
+              <input type="number" class="num-atr intelecto">
+              <input type="number" class="num-atr vigor">
+
+            </div>
+          <div class="pericias1">
+            <div class="pontos">
+                <input type="number" class="num-pericia acrobacia">
+                <input type="number" class="num-pericia adestramento">
+                <input type="number" class="num-pericia atletismo">
+                <input type="number" class="num-pericia crime">
+                <input type="number" class="num-pericia diplomacia">
+                <input type="number" class="num-pericia enganacao">
+                <input type="number" class="num-pericia fortitude">
+                <input type="number" class="num-pericia furtividade">
+                <input type="number" class="num-pericia iniciativa">
+                <input type="number" class="num-pericia intimidacao">
+                <input type="number" class="num-pericia intuicao">
+                <input type="number" class="num-pericia investigacao">
+                <input type="number" class="num-pericia luta">
+                <input type="number" class="num-pericia medicina">
+                <input type="number" class="num-pericia nen">
+                <input type="number" class="num-pericia percepcao">
+                <input type="number" class="num-pericia pontaria">
+                <input type="number" class="num-pericia reflexos">
+                <input type="number" class="num-pericia sanidade">
+                <input type="number" class="num-pericia sobrevivencia">
+                <input type="number" class="num-pericia tecnologia">
+            </div>
+                <ul class="pericias">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perícias:</p>
+                    <table class="pericias">
+  <tr><td>Acrobacia</td><td>(AGI)</td></tr>
+  <tr><td>Adestramento</td><td>(INT)</td></tr>
+  <tr><td>Atletismo</td><td>(AGI)</td></tr>
+  <tr><td>Crime</td><td>(AGI)</td></tr>
+  <tr><td>Diplomacia</td><td>(CAM)</td></tr>
+  <tr><td>Enganação</td><td>(CAM)</td></tr>
+  <tr><td>Fortitude</td><td>(VIG)</td></tr>
+  <tr><td>Furtividade</td><td>(AGI)</td></tr>
+  <tr><td>Iniciativa</td><td>(AGI)</td></tr>
+  <tr><td>Intimidação</td><td>(CAM)</td></tr>
+  <tr><td>Intuição</td><td>(CAM)</td></tr>
+  <tr><td>Investigação</td><td>(INT)</td></tr>
+  <tr><td>Luta</td><td>(FOR)</td></tr>
+  <tr><td>Medicina</td><td>(INT)</td></tr>
+  <tr><td>Nen</td><td>(INT)</td></tr>
+  <tr><td>Percepção</td><td>(CAM)</td></tr>
+  <tr><td>Pontaria</td><td>(AGI)</td></tr>
+  <tr><td>Reflexos</td><td>(AGI)</td></tr>
+  <tr><td>Sanidade</td><td>(CAM)</td></tr>
+  <tr><td>Sobrevivência</td><td>(INT)</td></tr>
+  <tr><td>Tecnologia</td><td>(INT)</td></tr>
+                </ul>
+              </div>
+        
+</table>
+                <ul class="linha">
+                    <h3>  __________________________________________________________________________________________________________________________________________________________________</h3>
+                </ul>
+                <img src="img/atributos.png" alt="atributos" class="atributos">
+                <a href="index.html">
+                <img src="img/logo hunter x hunter dice.png" alt="Hunter x Dice"
+                class="logo" style="border: none; outline: none;">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Pagina inicial</a>
+                    <a href="inventario.html">Inventário</a>
+                    <a href="habilidades.html">Habilidades</a>
+                    <a href="descricao.html">Descrição</a>
+                </ul>
+                <form class="ficha">
+
+  <label>
+    Nome
+    <input type="text" name="nome">
+  </label>
+
+  <label>
+    Idade
+    <input type="number" name="idade" min="0" max="150">
+  </label>
+  <label>
+    Origem
+    <input list="origens" name="origem" id="origem">
+    <datalist id="origens">
+      <option value="Acadêmico">
+      <option value="Assassino Arrependido">
+      <option value="Atleta">
+      <option value="Companheiro">
+      <option value="Criminoso"></option>
+      <option value="Espião"></option>
+      <option value="Humano normal"></option>
+      <option value="Investigador"></option>
+      <option value="Lutador"></option>
+      <option value="Mercenário"></option>
+      <option value="Militar"></option>
+      <option value="Tank"></option>
+      <option value="Técnico de Informática"></option>
+      <option value="Vingador"></option>
+      <option value="Vítima"></option>
+    </datalist>
+  </label>
+  <label>
+    Tipo de Nen
+    <input list="nen" name="nen">
+    <datalist id="nen">
+      <option value="Fortificação">
+      <option value="Emissão">
+      <option value="Transmutação">
+      <option value="Conjuração">
+      <option value="Manipulação">
+      <option value="Especialização">
+    </datalist>
+  </label>
+      <div class="nivel-hunter">
+        <label for="nivel">Nível de Hunter</label>
+        <select id="nivel">
+          <option value='1'>1</option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+          <option value='4'>4</option>
+          <option value='5'>5</option>
+          <option value='6'>6</option>
+          <option value='7'>7</option>
+          <option value='8'>8</option>
+          <option value='9'>9</option>
+          <option value='10'>10</option>
+          <option value='11'>11</option>
+          <option value='12'>12</option>
+          <option value='13'>13</option>
+          <option value='14'>14</option>
+          <option value='15'>15</option>
+        </select>
+        <div class="escudao">
+          <img src="img/escudo.png" alt="escudo" class="escudo">
+          <h2 class="defesa">Defesa=15+Agilidade</h2>
+          <span id="valordefesa">15</span>
+
+        </div>
+      </div>
+      <div class="vidacontainer">
+        
+      </div>
+
+</form>
+            </nav>
+        </div>
+    </header>
+    <script src="js/script.js"></script>
+</body>
+</html>
